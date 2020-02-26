@@ -60,11 +60,7 @@ body {
   background-color: #fff;
   border-bottom: var(--line);
 }
-/*.header{
-  display: inline;
-  grid-auto-columns: 1fr 1fr 1fr 1fr;
-  list-style: none;
-}*/
+
 .head{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
