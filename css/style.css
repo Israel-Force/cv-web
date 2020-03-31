@@ -683,6 +683,18 @@ aside .dropdown .dropdown-content ul li {
     width: 75%;
   }
 
+  .section .intro {
+    height: 70vh;
+  }
+  .section .intro .intrd {
+    font-size: 2.8rem;
+  }
+  .section .intro .para {
+    font-size: 1rem;
+    width: 75%;
+    font-weight: 400;
+  }
+
   .education {
     margin-left: 4.4em;
   }

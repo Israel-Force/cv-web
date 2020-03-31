@@ -577,7 +577,6 @@ width:100%;
 
 	}
 	.head_list_two{		
-
 		.fa-envelope-square{
 			color: color(color2);	
 			margin-right: .6em;
@@ -610,7 +609,6 @@ width:100%;
 		opacity: 1;
 		height: 8vh;
 		z-index: 0;
-
 		visibility: visible;
 		background: color(color2);
 		transform:none;
@@ -717,7 +715,7 @@ width:100%;
 
 	.section{
 		.intro{
-			margin-top: 3.2em;
+			margin-top: 2.8em;
 			height: 50vh;
 
 			.intrd{
@@ -776,19 +774,19 @@ header{
 
 	@include media-xl{
 	
-	.section{
-		.intro{
-			height: 60vh;
-			.intrd{
-				font-size: 2.8rem;
-			}
-				.para{
-				font-size:1rem;
-				width:75%;
-				font-weight:400;
+		.section{
+			.intro{
+				height: 60vh;
+				.intrd{
+					font-size: 2.8rem;
 				}
+					.para{
+					font-size:1rem;
+					width:75%;
+					font-weight:400;
+					}
+			}
 		}
-	}
 	.education{
 		width: 90%;
 		margin-left: 4em;
@@ -813,6 +811,20 @@ head{
 		width:75%;
 		}
 }
+.section{
+	.intro{
+		height: 70vh;
+		.intrd{
+			font-size: 2.8rem;
+		}
+			.para{
+			font-size:1rem;
+			width:75%;
+			font-weight:400;
+			}
+	}
+}
+
 .education{
 	margin-left: 4.4em;
 }
