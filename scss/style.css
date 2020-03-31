@@ -630,7 +630,7 @@ aside .dropdown .dropdown-content ul li {
   header .head .head_list_two .fa-envelope-square {
     color: #e8491d;
     margin-right: .6em;
-    margin-top: .6em;
+    margin-top: 0;
     font-size: 1.3em;
   }
   header .head .head_list_three {
@@ -639,7 +639,7 @@ aside .dropdown .dropdown-content ul li {
   header .head .head_list_three .fa-phone-square-alt {
     color: #e8491d;
     margin-right: .6em;
-    margin-top: .6em;
+    margin-top: 0;
     font-size: 1.3em;
   }
   header .menu-btn {
