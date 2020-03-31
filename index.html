@@ -1,33 +1,34 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-	<title>Israel Oladosu&mdash; cv</title>
-   <!--  <link rel="stylesheet" type="text/css" href="style.css"> -->
-    <link rel="stylesheet" type="text/css" href="style-comp.css">
+    <meta charset="UTF-8">
+    <title>Israel Oladosu&mdash; cv</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <div class="container">
-    	<div class="banner">
-            <div class="header">
-                <div class="header1">
-                    <ul class="head">
-                        <li><b>Oladosu Israel</b></li>
-                        <li class="adjust"><b>Oladosuisraelolayinka@gmail.com</b></li>
-                        <li class="push"><b><em>+2348135889231</em></b></li>
-                    </ul>
-                </div>
-                 <div class="user-nav__user">
-                            <img src="./user.jpg" alt="User photo" class="user-nav__user-photo">
-                </div>
+        <header class="banner sticky">
+            <div class="user-nav__user">
+                <img src="./user.jpg" alt="User photo" class="user-nav__user-photo">
             </div>
-        </div>
-        <div class="body">
-            <div class="navbar">
-                <div class="dropdowns">
-                    <div class="dropdown">
-                        <button class="dropbtn" onclick="myFunction()">Certs<i class="fa fa-caret-down"></i>
-                        </button>
-                        <div class="dropdown-content" id="myDropdown">
+            <ul class="head">
+                <li class="head_list_one">Oladosu<span>Israel</span></li>
+                <li class="head_list_two"><i class="fas fa-envelope-square"></i>Oladosuisraelolayinka@gmail.com</li>
+                <li class="head_list_three"><i class="fas fa-phone-square-alt"></i>+2348135889231</li>
+            </ul>
+            <div class="menu-btn">
+                <span class="menu-btn_burger"></span>
+            </div>
+        </header>
+        <div class="content">
+            <aside class="navbar">
+                <nav class="nav">
+                    <div class="dropdown dropdown_active">
+                        <button class="dropbtn">Certs</button>
+                        <div class="dropdown-content one" id="Certs">
                             <ul>
                                 <li>Professional Diploma (Chatterd Institute of Stockebrokers)
                                 </li>
@@ -35,38 +36,34 @@
                         </div>
                     </div>
                     <div class="dropdown">
-                        <button class="dropbtn" onclick="myFunction1()">Skills<i class="fa fa-caret-down"></i>
-                        </button>
-                        <div class="dropdown-content" id="myDropdown1">
+                        <button class="dropbtn">Skills</button>
+                        <div class="dropdown-content" id="Skills">
                             <ul>
                                 <li>Analytical and problem-solving Skill
                                 </li>
                                 <li>Cross-functional Team Work Oriented</li>
-                               <li>Proactive and highly resourceful</li>
-                               <li>Goal driven, Well Organized & Attention to detail</li>
+                                <li>Proactive and highly resourceful</li>
+                                <li>Goal driven, Well Organized & Attention to detail</li>
                                 <li>Strong communication & Interpersonal Skills</li>
                             </ul>
                         </div>
                     </div>
-                     <div class="dropdown">
-                        <button class="dropbtn" onclick="myFunction2()">Techs
-                            <i class="fa fa-caret-down"></i>
-                        </button>
-                        <div class="dropdown-content" id="myDropdown2">
+                    <div class="dropdown">
+                        <button class="dropbtn">Techs</i></button>
+                        <div class="dropdown-content" id="Techs">
                             <ul>
                                 <li>Photoshop</li>
                                 <li>HTML5</li>
                                 <li>CSS3</li>
-                                <li>Bootstrap</li>
+                                <li>SASS</li>
                                 <li>JavaScript</li>
                                 <li>Microsoft Suite</li>
                             </ul>
                         </div>
                     </div>
-                     <div class="dropdown">
-                        <button class="dropbtn" onclick="myFunction3()">Leadership<i class="fa fa-caret-down"></i>
-                        </button>
-                        <div class="dropdown-content" id="myDropdown3">
+                    <div class="dropdown">
+                        <button class="dropbtn pp">Leadership</button>
+                        <div class="dropdown-content" id="Leadership">
                             <ul>
                                 <li>Program coordinator Ife Agricultural conference ‘19</li>
                                 <li>Coordinator smiles production creative hub</li>
@@ -74,11 +71,9 @@
                             </ul>
                         </div>
                     </div>
-                     <div class="dropdown">
-                        <button class="dropbtn" onclick="myFunction4()">Prof. courses
-                            <i class="fa fa-caret-down"></i>
-                        </button>
-                        <div class="dropdown-content" id="myDropdown4">
+                    <div class="dropdown">
+                        <button class="dropbtn">Prof. courses</button>
+                        <div class="dropdown-content" id="Prof. courses">
                             <ul>
                                 <li>Project Management Basic </li>
                                 <li>Capital Budgeting</li>
@@ -89,42 +84,62 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="legal">
-                        &copy; 2020 by Israel-Force. All rights reserved.
-                    </div>   
+                    <div class="dropdown project">
+                        <button class="dropbtn">Projects<i class="fas fa-dropdown"></i></button>
+                        <div class="dropdown-content" id="Projects">
+                            <ul class="last">
+                                <li><a  href="https://israel-force.github.io/Website-Practice1/" target="_blank">Trillo</a></li>
+                                <li><a  href="https://israel-force.github.io/Loan-calculator/" target="_blank">Loan Calculator</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </aside>
+            <div class="section">
+                <div class="intro">
+                    <h1 class="intrd">Bio</h1>
+                    <p class="para">Result focused software developer, with a can-do attitude, admirable never give-up spirit, phenomenal time management skills, a strong user focus and problem solving ability.I am both driven and self-motivated, a voracious learner who is only contented with knowledge.</p>
                 </div>
-            </div>
-            <div class="greetings">
-                <h1 id="time"></h1>
-            </div>
-           <!--  <main>  -->
+                <div class="greetings">
+                    <marquee behavior="scroll" direction="right" id="time"></marquee>
+                </div>
                 <div class="education">
-                    <div class="education1">
-                        <h2 class="title">Education</h2>
-                        <p >Obafemi Awolowo University,Nigeria, 2015<br>  ND -Conservation Science and Tourism <br>First Class 4.6/5.0
+                     <div class="heading">
+                        <h2>Education</h2>
+                    </div>
+                    <div class="tab">
+                        <button class="tablinks active" id="defaultOpen">ND</button>
+                        <button class="tablinks">Bsc</button>
+                    </div>
+                    <div id="ND" class="tabcontent">
+                        <!-- <h2 class="title">Education</h2> -->
+                        <p>Obafemi Awolowo University,Nigeria, 2015<br> ND -Conservation Science and Tourism <br>First Class 4.6/5.0
                         </p>
                     </div>
-                    <div class="education2">
-                        <h2 class="title">Education</h2>
+                    <div id="Bsc" class="tabcontent"">
+                        <!-- <h2 class=" title">Education</h2> -->
                         <p>Obafemi Awolowo University,Nigeria, 2019<br> B.Agric- Agricultural Economics <br>
-                        Upper Second Class
+                            Upper Second Class
                         </p>
                     </div>
                 </div>
                 <div class="professional">
-                    <div class="professional1">
-                        <h2 class="title">Professional Experiences</h2>
-                        <h3><b>IFE AGRICULTURAL CONFERENCE 2019</b></h3>
+                    <div class="heading">
+                        <h2>Professional Experiences</h2>
+                    </div>
+                   <button class="accordion">IAec 2019</button>
+                    <div class="pro">
+                        <h3 class="bolder">IFE AGRICULTURAL CONFERENCE 2019</h3>
                         <h3>Program Coordinator</h3>
-                        <h4><b>January 2019-September 2019</b></h4>
+                        <h4>January 2019-September 2019</h4>
                         <ul class="experiences">
-                            <li> Coordinated a team of 14-members towards organizing of a pan- African conference for Agriculture Students’ centered on the fourth industrial revolution and the future of agriculture in Africa</li>
+                            <li> Coordinated a team of 14-members towards organizing of a pan- African conference for <br>Agriculture Students’ centered on the fourth industrial revolution and the future of agriculture in Africa</li>
                             <li>Oversee the effective functioning of all units involved in the organization of the conference</li>
                         </ul>
                     </div>
-                    <div class="professional2">
-                        <h2 class="title">Professional Experiences</h2>
-                        <h3><b>OBAFEMI AWOLOWO UNIVERSITY TEACHING AND RESEARCH FARM – FARM OPERATION </b></h3>
+                    <button class="accordion">OAU</button>
+                    <div class="pro">
+                        <h3 class="bolder"><b>OBAFEMI AWOLOWO UNIVERSITY TEACHING AND RESEARCH FARM – FARM OPERATION </b></h3>
                         <h3>Intern (Team Leader)</h3>
                         <h4><b>April 2018- December 2018</b></h4>
                         <ul class="experiences">
@@ -133,8 +148,9 @@
                             <li>Supervised team members to ensure effectiveness and optimum professionalism </li>
                         </ul>
                     </div>
-                    <div class="professional3">
-                        <h3><b>SMILES PRODUCTION CREATIVE HUB, RCF OAU</b></h3>
+                    <button class="accordion">SMILES</button>
+                    <div class="pro">
+                        <h3 class="bolder"><b>SMILES PRODUCTION CREATIVE HUB, RCF OAU</b></h3>
                         <h3>Coordinator</h3>
                         <h4><b>February 2017–March 2018</b></h4>
                         <ul class="experiences">
@@ -144,27 +160,44 @@
                             <li>Provide inspired leadership for the organization</li>
                         </ul>
                     </div>
-                    <div class="project">
-                        <div class="personal">
-                        <h2 class="title">Personal Projects</h2>
-                        <ul class="personal">
-                            <li><a href="https://israel-force.github.io/Website-Practice1/" target="_blank">Trillo</a></li>
-                            <li><a href="https://israel-force.github.io/Loan-calculator/" target="_blank">Loan Calculator</a></li>
-                        </ul>
-                    </div>
                 </div>
+                <!-- <div class="gallery">
+                            <div class="img1">
+                                <img class="gallery_img" src="./img1.jpg" alt="Gallery image 1" class="gallery__img">
+                            </div>
+                            <div class="img2">
+                                <img class="gallery_img" src="./img2.jpg" alt="Gallery image 2" class="gallery__img">
+                            </div>
+                            <div class="img3">
+                                <img class="gallery_img" src="./img3.jpg" alt="Gallery image 3" class="gallery__img">
+                            </div>
+                            <div class="img4">
+                                <img class="gallery_img" src="./img4.jpg" alt="Gallery image 4" class="gallery__img">
+                            </div>
+                            <div class="img5">
+                                <img class="gallery_img" src="./img5.png" alt="Gallery image 5" class="gallery__img">
+                            </div>
+                            <div class="img6">
+                            <img class="gallery_img" src="./img6.jpg" alt="Gallery image 6" class="gallery__img">
+                            </div>
+                        </div> -->
+                <footer class="gratitude">
+                    <h2 class="thank_you">
+                        Thank you for visiting.
+                    </h2>
+                    <button class="btn">
+                        <span class="btn__visible">Goodbye</span>
+                        <span class="btn__invisible">Regards</span>
+                    </button>
+                    <div class="legal">
+                        &copy; 2020 by Israel-Force. All rights reserved.
+                    </footer>
                 </div>
-                 <div class="gallery">
-                    <img class="gallery" src="./img1.jpg" alt="Gallery image 1" class="gallery__img">
-                    <img class="gallery" src="./img2.jpg" alt="Gallery image 2" class="gallery__img">
-                    <img class="gallery" src="./img3.jpg" alt="Gallery image 3" class="gallery__img">
-                    <img class="gallery" src="./img4.jpg" alt="Gallery image 4" class="gallery__img">
-                    <img class="gallery" src="./img5.png" alt="Gallery image 5" class="gallery__img">
-                    <img class="gallery" src="./img6.jpg" alt="Gallery image 6" class="gallery__img">
-                </div> 
-            <!-- </main> -->
-        </div>              
+            </div>
+        </div>
     </div>
-    <script type="text/javascript" src="./script.js"></script> 
+    <script type="text/javascript" src="./script.js"></script>
+    <script src="https://kit.fontawesome.com/0848d9fc5f.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
