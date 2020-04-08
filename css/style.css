@@ -19,6 +19,7 @@ body {
   margin: 0 auto;
   background: white;
   padding: 0;
+  position: relative;
 }
 
 /*Typography*/
@@ -492,7 +493,7 @@ aside .dropdown .dropdown-content ul li {
   header .head .head_list_two .fa-envelope-square {
     color: #e8491d;
     margin-right: 0.6em;
-    margin-top: 0.6em;
+    margin-top: 0;
     font-size: 1.3em;
   }
   header .head .head_list_three {
@@ -501,7 +502,7 @@ aside .dropdown .dropdown-content ul li {
   header .head .head_list_three .fa-phone-square-alt {
     color: #e8491d;
     margin-right: 0.6em;
-    margin-top: 0.6em;
+    margin-top: 0;
     font-size: 1.3em;
   }
   header .menu-btn {
@@ -605,7 +606,7 @@ aside .dropdown .dropdown-content ul li {
   }
 
   .section .intro {
-    margin-top: 3.2em;
+    margin-top: 2.8em;
     height: 50vh;
   }
   .section .intro .intrd {
@@ -714,14 +715,14 @@ aside .dropdown .dropdown-content ul li {
 }
 @media only screen and (min-width: 1600px) {
   body {
-    background: url(../body1.jpg) center top;
+    background: url(../pattern.jpg) center top;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
   }
 
   .container {
-    width: 80%;
+    width: 90%;
     position: relative;
     height: 80%;
     border: 2px solid #e8491d;
