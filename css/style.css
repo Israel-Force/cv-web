@@ -172,6 +172,7 @@ aside {
   opacity: 0.98;
   height: 100vh;
   z-index: 2;
+  overflow-y: scroll;
   visibility: hidden;
   background: #e8491d;
   transform: translateY(-100%);
@@ -515,6 +516,7 @@ aside .dropdown .dropdown-content ul li {
     left: 0;
     opacity: 1;
     height: 8vh;
+    overflow-y: visible;
     z-index: 0;
     visibility: visible;
     background: #e8491d;

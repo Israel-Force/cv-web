@@ -30,20 +30,20 @@ dropdwn.forEach(function (item)
 item.addEventListener('click', function () { openDropbtn(this) }) 
 })
 
-//var show = false
+var show = false
 function openDropbtn (btn) {
   for (var i = 0; i < content.length; i++) {
     content[i].classList.contains('open')
     content[i].classList.remove('open')
   }
-  if (btn) {
+  if (!show) {
     var nxt = btn.firstChild.nextElementSibling.nextElementSibling;
       nxt.classList.add('open')
-        //show = true
+        show = true
         } else {
           var nxt = btn.firstChild.nextElementSibling.nextElementSibling;
           nxt.classList.remove('open')
-          //show = false;
+          show = false;
         
         }
 }
